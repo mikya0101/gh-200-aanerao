@@ -8,4 +8,7 @@ jobs:
     steps:
       - name: Say Hello, Amol Anerao
         run: echo "Hello, Amol Anerao"
+
+      - name: Copy Repo
+        uses: action/checkout@v6
   
