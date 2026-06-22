@@ -7,5 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Say Hello, Amol Anerao
-        run: run: echo 'Hello, Amol Anerao'
+        run: run: echo "Hello, Amol Anerao"
   
