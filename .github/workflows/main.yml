@@ -14,5 +14,11 @@ jobs:
 
       - name: List Files
         run: ls -la 
-          
+
+      - name: Generate ASCII
+        run: |
+          sudo apt-get install -y figlet
+          figlet "GH-200 Cohack"
+          echo "------------------------------"
+          figlet -f digital "GitHub Actions"
   
